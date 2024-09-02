@@ -104,7 +104,7 @@ async function handleLogin(event) {
 
     // Show chat container
     const chatContainer = document.getElementById("chat_container");
-    chatContainer.style.display = "block";
+    chatContainer.style.display = "flex";
   } else {
     alert('Invalid username or password');
   }
@@ -138,7 +138,7 @@ async function handleSignin(event) {
 
     // Show chat container
     const chatContainer = document.getElementById("chat_container");
-    chatContainer.style.display = "block";
+    chatContainer.style.display = "flex";
   } else {
     alert('Invalid username or password');
   }
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     signinContainer.style.display = "none";
 
     const chatContainer = document.getElementById('chat_container');
-    chatContainer.style.display = 'block';
+    chatContainer.style.display = 'flex';
   }
 })
 
